@@ -4,18 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ba9db2f-384a-488c-a5ac-12c6686ccd66" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dealership.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learntocode/CarDealership.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learntocode/Dealership.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learntocode/DealershipFileManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learntocode/UserInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learntocode/Vehicle.java" afterDir="false" />
+    <list default="true" id="8ba9db2f-384a-488c-a5ac-12c6686ccd66" name="Changes" comment="initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dealership.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dealership.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/learntocode/CarDealership.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learntocode/CarDealership.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/learntocode/Dealership.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learntocode/Dealership.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/learntocode/DealershipFileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learntocode/DealershipFileManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/learntocode/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learntocode/UserInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/learntocode/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learntocode/Vehicle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +40,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
@@ -56,10 +53,36 @@
       <option name="presentableId" value="Default" />
       <updated>1683904556799</updated>
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1684268635736</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1684268635736</updated>
+    </task>
+    <task id="LOCAL-00002" summary="initial commit">
+      <created>1684268656761</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684268656761</updated>
+    </task>
+    <task id="LOCAL-00003" summary="initial commit">
+      <created>1684268682804</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1684268682804</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -71,7 +94,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/learntocode/UserInterface.java</url>
-          <line>15</line>
+          <line>17</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

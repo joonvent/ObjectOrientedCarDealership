@@ -43,27 +43,27 @@ public class Dealership {
     }
 
     public List<Vehicle> getVehicleByPrice(double min, double max) {
-
+        return null;
     }
 
     public List<Vehicle> getVehicleByMake(String make, String model) {
-
+        return null;
     }
 
     public List<Vehicle> getVehicleByYear(int Year) {
-
+        return null;
     }
 
     public List<Vehicle> getVehicleByColor(String color) {
-
+        return null;
     }
 
     public List<Vehicle> getByMileage(int min, int max) {
-
+        return null;
     }
 
     public List<Vehicle> getByType(String vehicleType) {
-
+        return null;
     }
 
     public List<Vehicle> getAllVehicles() {

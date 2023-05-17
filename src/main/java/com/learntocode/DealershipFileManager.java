@@ -5,7 +5,7 @@ package com.learntocode;
 import java.io.BufferedReader;
 import java.io.FileReader;
 
-public class DealershipFileManager() {
+public class DealershipFileManager{
     private String dealership = "dealership.csv";
 
     public Dealership getDealership() {

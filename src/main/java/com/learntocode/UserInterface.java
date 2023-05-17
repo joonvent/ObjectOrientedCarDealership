@@ -1,10 +1,12 @@
 package com.learntocode;
-
+import java.util.*;
 import java.util.Scanner;
 
 public class UserInterface {
-
+    private double maxPrice;
+    private double minPrice;
     private Dealership dealership;
+
 
 
     public UserInterface(Dealership dealership) {
@@ -22,6 +24,7 @@ public class UserInterface {
             System.out.println("Error");
 
         }
+
 
     }
 
@@ -42,6 +45,7 @@ public class UserInterface {
         System.out.println("7.Search All Vehicles");
         System.out.println("8.Add A Vehicle");
         System.out.println("9.Remove Vehicle");
+        System.out.println("99.Exit Home");
 
 
         int choice = scanner.nextInt();
@@ -52,6 +56,7 @@ public class UserInterface {
 
                 System.out.println("Please Enter Minimum Price");
                 double minPrice = scanner.nextDouble();
+             processGetByPriceRequest(dealership.getAllVehicles());
                 break;
 
             case 2:
@@ -79,52 +84,81 @@ public class UserInterface {
                 String vehicleType = scanner.nextLine();
                 break;
             case 7:
-                System.out.println("Search All Vehicles");
+               // System.out.println("Search All Vehicles");
+                processGetAllVehiclesRequest(dealership.getAllVehicles());
+                System.out.println(dealership.getAllVehicles());
                 break;
             case 8:
                 System.out.println("Add New Vehicle");
                 break;
             case 9:
                 System.out.println("Remove Vehicle");
+                break;
+            case 99:
+                System.out.println("Exit");
+                break;
 
         }
+    }
 
-
+    private void displayVehicles(List<Vehicle> inventory){
+        for(int i = 0; i <inventory.size();i++) {
+            System.out.println(inventory.get(i));//vehicles
+        }
 
     }
 
-    public void processGetByPriceRequest() {
+    public void proccessAllVehiclesRequest(){
+        displayVehicles(dealership.getAllVehicles());
 
     }
 
-    public void processGetByMakeModel() {
-    }
+    public void processGetByPriceRequest(List<Vehicle> inventory) {
+        List<Vehicle> selectedVehicles = new ArrayList<>();
 
-    public void processGetByYearRequest() {
+        for (Vehicle vehicle : inventory) {
+            if (vehicle.getPrice() >= minPrice && vehicle.getPrice() <= maxPrice) {
+                selectedVehicles.add(vehicle);
 
-    }
-
-    public void processGetByCOlorRequest() {
-
-    }
-
-    public void processGetByMileageRequest() {
+            }
+        }
+        displayVehicles(selectedVehicles);
 
     }
 
-    public void processGetByVehicleTypeRequest() {
+    public void processGetByMakeModel(List<Vehicle> inventory) {
+    }
+
+    public void processGetByYearRequest(List<Vehicle> inventory) {
 
     }
 
-    public void processGetAllVehiclesRequest() {
+    public void processGetByCOlorRequest(List<Vehicle> inventory) {
 
     }
 
-    public void processAddVehcicleRequest() {
+    public void processGetByMileageRequest(List<Vehicle> inventory) {
 
     }
 
-    public void proccessRemoveVehicleRequest() {
+    public void processGetByVehicleTypeRequest(List<Vehicle> inventory) {
+
     }
+
+    public void processGetAllVehiclesRequest(List<Vehicle> inventory) {
+        for(int i = 0; i <inventory.size();i++) {
+            System.out.println(inventory.get(i));//vehicles
+    }
+    }
+
+    public void processAddVehcicleRequest(List<Vehicle> inventory) {
+
+    }
+
+    public void proccessRemoveVehicleRequest(List<Vehicle> inventory) {
+    }
+
+
+
 
 }
